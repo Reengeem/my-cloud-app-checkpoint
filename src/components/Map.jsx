@@ -6,7 +6,7 @@ import LocationPin from "./LocationPin";
 const Map = ({ location, zoomLevel }) => {
   return (
     <div className="map">
-      <h2 className="map-h2">Visit Us At</h2>
+      <h2 className="map-h2">Get in Touch</h2>
       <div className="google-map">
         {/* Calling google map component from google-map-react */}
         <GoogleMapReact
